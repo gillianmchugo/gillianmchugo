@@ -4,10 +4,18 @@
 
 PhD researcher at [University College Dublin](https://www.ucd.ie) studying integrative genomics of infectious diseases in cattle, focusing on trypanosomiasis in hybrid African cattle and bovine tuberculosis in Irish cattle.
 
-### Selected publications
+### Publications
 
-:page_facing_up: McHugo *et al.* (2019) Unlocking the origins and biology of domestic animals using ancient DNA and paleogenomics. [*BMC Biol.* 17:98](https://doi.org/10.1186/s12915-019-0724-7)
+:page_facing_up: Dover, M.J., Hall, T.J., **McHugo, G.P.** and MacHugh, D.E. (2021) 'A functional and integrative genomics analysis of host response to disease caused by infection with *Mycobacterium tuberculosis* in humans and *Mycobacterium bovis* in cattle', *Irish Journal of Medical Science*, 190(Supplement 4), pp. S135-S136. DOI: [10.1007/s11845-021-02718-9](https://doi.org/10.1007/s11845-021-02718-9)
 
-:page_facing_up: McHugo *et al.* (2019) A population genomics analysis of the native Irish Galway sheep breed. [*Front. Genet.* 10:927](https://doi.org/10.3389/fgene.2019.00927)
+:page_facing_up: Hall, T.J., Mullen, M.P., **McHugo, G.P.**, Killick, K.E., Ring, S.C., Berry, D.P., Correia, C.N., Browne, J.A., Gordon, S.V. and MacHugh, D.E. (2021) 'Integrative genomics of the mammalian alveolar macrophage response to intracellular mycobacteria', *BMC Genomics*, 22, 343. DOI: [10.1186/s12864-021-07643-w](https://doi.org/10.1186/s12864-021-07643-w)
 
-:memo: A full list can be found on my [website,](https://gillianmchugo.github.io) [ORCID,](https://orcid.org/0000-0001-6920-0041) [ResearchGate,](https://www.researchgate.net/profile/Gillian-Mchugo) or [Google Scholar.](https://scholar.google.com/citations?user=4mpdqz4AAAAJ)
+:page_facing_up: **McHugo, G.P.**, Dover, M.J. and MacHugh, D.E. (2019) 'Unlocking the origins and biology of domestic animals using ancient DNA and paleogenomics', *BMC Biology*, 17, 98. DOI: [10.1186/s12915-019-0724-7](https://doi.org/10.1186/s12915-019-0724-7)
+
+:page_facing_up: **McHugo, G.P.**, Browett, S., Randhawa, I.A., Howard, D.J., Mullen, M.P., Richardson, I.W., Park, S.D., Magee, D.A., Scraggs, E., Dover, M.J., Correia, C.N., Hanrahan, J.P. and MacHugh, D.E. (2019) 'A population genomics analysis of the native Irish Galway sheep breed', *Frontiers in Genetics*, 10, 927. DOI: [10.3389/fgene.2019.00927](https://doi.org/10.3389/fgene.2019.00927)
+
+:page_facing_up: **McHugo, G.P.**, O'Gorman, G.M., Hill, E.W. and MacHugh, D.E. (2019) 'Local ancestry and functional genomics of trypanotolerant and trypanosusceptible admixed African cattle breeds', *Human Heredity*, 83(5), p. 240. DOI: [10.1159/000499459](https://doi.org/10.1159/000499459)
+
+:page_facing_up: Browett, S., **McHugo, G.**, Richardson, I.W., Magee, D.A., Park, S.D., Fahey, A.G., Kearney, J.F., Correia, C.N., Randhawa, I.A. and MacHugh, D.E. (2018) 'Genomic characterisation of the indigenous Irish Kerry cattle breed', *Frontiers in Genetics*, 9, 51. DOI: [10.3389/fgene.2018.00051](https://doi.org/10.3389/fgene.2018.00051)
+
+:memo: A full list is available on my [website](https://gillianmchugo.github.io) and [ORCID.](https://orcid.org/0000-0001-6920-0041)
