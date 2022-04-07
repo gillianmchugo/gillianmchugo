@@ -1,0 +1,5 @@
+*.Rproj
+*.Rhistory
+.Rproj.user/
+GillianMcHugo.knit.md
+harvard-cite-them-right-no-et-al.csl

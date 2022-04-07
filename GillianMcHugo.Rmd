@@ -1,0 +1,48 @@
+---
+output: github_document
+bibliography: bib/publications.bib
+csl: harvard-cite-them-right-no-et-al.csl
+nocite: |
+  @browett2018frontiersingenetics,
+  @mchugo2019humanheredity, 
+  @mchugo2019frontiersingenetics, 
+  @mchugo2019bmcbiology,
+  @hall2021bmcgenomics,
+  @dover2021irishjournalofmedicalscience
+---
+
+[![Combined figures from Galway sheep publication](https://github.com/GillianMcHugo/GillianMcHugo/blob/main/Media/Combined_Galway_header.gif)](https://doi.org/10.3389/fgene.2019.00927)
+
+## [Gillian McHugo](https://gillianmchugo.github.io) :cow2::dna::computer:
+
+Computational biology PhD researcher at [University College Dublin](https://www.ucd.ie) studying integrative genomics of infectious diseases in cattle, focusing on trypanosomiasis in hybrid African cattle and bovine tuberculosis in Irish cattle.
+
+### Publications
+
+<div id="refs"></div>
+```{r, include = F}
+# Install and load package
+if (!require(stringi)) install.packages("stringi")
+library(stringi)
+
+# Read, edit and write README
+README <- readLines("GillianMcHugo.md")
+
+README <- stri_replace_all_regex(
+  README,
+  pattern = c("McHugo, G.P.",
+              "McHugo, G.,",
+              "Mycobacterium",
+              "bovis",
+              "tuberculosis"),
+  replacement = c("**McHugo, G.P.**",
+                  "**McHugo, G.**,",
+                  "*Mycobacterium*",
+                  "*bovis*",
+                  "*tuberculosis*"),
+  vectorize = F)
+
+writeLines(README, "README.md")
+```
+
+*A full list is available on my [website](https://gillianmchugo.github.io) and [ORCID.](https://orcid.org/0000-0001-6920-0041)*
