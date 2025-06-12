@@ -1,0 +1,60 @@
+---
+output: github_document
+bibliography: publications/publications.bib
+csl: publications/apa-custom.csl
+nocite: |
+  @browettetal2018frontiersingenetics
+  @mchugoetal2019frontiersingenetics
+  @mchugoetal2019bmcbiology
+  @halletal2021bmcgenomics
+  @wardetal2022iscience
+  @correiaetal2022tuberculosis
+  @bhatetal2023frontiersinimmunology
+  @wardetal2024royalsocietyopenscience
+  @kellyetal2024parasiteimmunology
+  @halletal2024tuberculosis
+  @mchugoetal2025heredity
+  @ogradyetal2025communicationsbiology
+---
+# [Gillian McHugo](https://gillianmchugo.github.io) :computer::dna:
+
+Computational biologist with experience in integrative population and functional genomics.
+
+:link: [gillianmchugo.github.io](https://gillianmchugo.github.io)
+
+## Education
+
+:mortar_board: **PhD in Infection Biology**, University College Dublin, 2018 - 2024<br>
+Thesis: Integrative population and functional genomics of trypanotolerance in hybrid African cattle, first experimental chapter published in [*Heredity*](https://rdcu.be/dZxHo "rdcu.be/dZxHo") and second experimental chapter available as a preprint on [bioRxiv.](https://doi.org/doi:10.1101/2025.01.31.635858 "doi.org/doi:10.1101/2025.01.31.635858")
+
+:mortar_board: **MSc in Evolutionary Biology**, University College Dublin, 2015 - 2016<br>
+Thesis: A population genomics analysis of the endangered Galway sheep breed, published in [*Frontiers in Genetics*.](https://doi.org/10.3389/fgene.2019.00927 "doi.org/10.3389/fgene.2019.00927")
+
+:mortar_board: **BA (Mod) in Natural Sciences (Zoology)**, Trinity College Dublin, 2011 - 2015<br>
+Thesis: *Mytilus edulis* as a bioindicator of water pollution: Potential histopathology biomarkers in Dublin Bay and Newquay, Co. Clare.
+
+## [Publications](https://gillianmchugo.github.io/#publications)
+
+<div id="refs"></div>
+```{r, include = F}
+# install and load package
+if (!require(stringi)) install.packages("stringi")
+library(stringi)
+
+# read readme
+readme <- readLines("gillianmchugo.md")
+
+# edit readme
+readme <- stri_replace_all_regex(
+  readme,
+  pattern = c("McHugo, G. P.,",
+              "McHugo, G.,",
+              "Mycobacterium bovis"),
+  replacement = c("**McHugo, G. P.**,",
+                  "**McHugo, G.**,",
+                  "*Mycobacterium bovis*"),
+  vectorize = F)
+
+# write readme
+writeLines(readme, "README.md")
+```
