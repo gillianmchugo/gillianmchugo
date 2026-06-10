@@ -1,0 +1,62 @@
+---
+output: github_document
+bibliography: publications/publications.yaml
+csl: publications/apa-custom.csl
+nocite: |
+  @browettetal2018frontiersingenetics
+  @mchugoetal2019frontiersingenetics
+  @mchugoetal2019bmcbiology
+  @halletal2021bmcgenomics
+  @wardetal2022iscience
+  @correiaetal2022tuberculosis
+  @bhatetal2023frontiersinimmunology
+  @wardetal2024royalsocietyopenscience
+  @kellyetal2024parasiteimmunology
+  @halletal2024tuberculosis
+  @mchugoetal2025heredity
+  @ogradyetal2025communicationsbiology
+  @mchugoetal2025plosneglectedtropicaldiseases
+  @ngangaetal2026bmcgenomics
+  @mchugoetal2026evolutionaryapplications
+---
+# [Gillian McHugo](https://gillianmchugo.github.io) :computer::dna:
+
+:link: [gillianmchugo.github.io](https://gillianmchugo.github.io)
+
+## Education
+
+:mortar_board: **PhD in Infection Biology**, University College Dublin, 2018 - 2025<br>
+Thesis: Integrative population and functional genomics of trypanotolerance in hybrid African cattle, published in [*Evolutionary Applications*,](https://doi.org/10.1111/eva.70274 "doi.org/10.1111/eva.70274") [*PLOS Neglected Tropical Diseases*,](https://doi.org/10.1371/journal.pntd.0012882 "doi.org/10.1371/journal.pntd.0012882") and [*Heredity*.](https://doi.org/10.1038/s41437-024-00734-w "doi.org/10.1038/s41437-024-00734-w")
+
+:mortar_board: **MSc in Evolutionary Biology**, University College Dublin, 2015 - 2016<br>
+Thesis: A population genomics analysis of the endangered Galway sheep breed, published in [*Frontiers in Genetics*.](https://doi.org/10.3389/fgene.2019.00927 "doi.org/10.3389/fgene.2019.00927")
+
+:mortar_board: **BA (Mod) in Natural Sciences (Zoology)**, Trinity College Dublin, 2011 - 2015
+
+## [Publications](https://gillianmchugo.github.io/#publications)
+
+<div id="refs"></div>
+```{r, include = F}
+# install and load package
+if (!require(stringi)) install.packages("stringi")
+library(stringi)
+
+# read readme
+readme <- readLines("gillianmchugo.md")
+
+# edit readme
+readme <- stri_replace_all_regex(
+  readme,
+  pattern = c("McHugo, G. P.,",
+              "McHugo, G.,",
+              "Mycobacterium bovis",
+              "Trypanosoma congolense"),
+  replacement = c("**McHugo, G. P.**,",
+                  "**McHugo, G.**,",
+                  "*Mycobacterium bovis*",
+                  "*Trypanosoma congolense*"),
+  vectorize = F)
+
+# write readme
+writeLines(readme, "README.md")
+```
